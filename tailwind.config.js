@@ -8,9 +8,16 @@ export default {
     extend: {
       height: {
         'full-login': 'calc(100vh - 68px)',
-      }
+      },
+
     },
   },
-  plugins: [],
+
+  plugins: [
+    require("@tailwindcss/forms")({
+      strategy: 'base', // only generate global styles
+      strategy: 'class', // only generate classes
+    }),
+  ],
 }
 

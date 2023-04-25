@@ -4,7 +4,7 @@ export const NavBar = () => {
   return (
     <>
         <div className=' container mx-auto font-mono font-bold flex justify-between text-lg p-4'>
-            <div className=' flex items-center text-xl'>
+            <div className=' flex items-center text-2xl'>
                 <h1 className=' '>APP-REGISTRO</h1>
             </div>
             <div className='flex text-white font-extralight'>
